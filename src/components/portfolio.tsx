@@ -19,7 +19,8 @@ const allWorks = [
   { id: 9, title: "Real Estate Platform", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 125127.png" },
   { id: 10, title: "Health Management WebApp", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 125138.png" },
   { id: 11, title: "SaaS Dashboard", tag: "Web", img: "https://images.unsplash.com/photo-1551281044-8a5b6735f4b8?q=80&w=1600&auto=format&fit=crop" },
-  { id: 11, title: "Academic CRM", tag: "Web", img: "src/assets/images/image.png" },
+  { id: 12, title: "Academic CRM", tag: "Web", img: "src/assets/images/image.png" },
+  { id: 13, title: "SMM Marketing Platform", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 182956.png" },
 ]
 
 const Portfolio = () => {
