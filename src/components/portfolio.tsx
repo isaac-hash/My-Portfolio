@@ -8,19 +8,19 @@ import { useMemo, useState } from "react"
 // Portfolio
 // ————————————————————————————————
 const allWorks = [
-  { id: 1, title: "Automobile Company Ecommerce", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 180121.png" },
-  { id: 2, title: "SaaS Dashboard", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 180220.png" },
-  { id: 3, title: "Fashion Lookbook", tag: "Mobile", img: "src/assets/images/Screenshot 2025-11-11 125109.png" },
-  { id: 4, title: "Crypto Landing", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 181715.png" },
+  { id: 1, title: "Automobile Company Ecommerce", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883630/Screenshot_2025-11-11_180121_ezx8ms.png" },
+  { id: 2, title: "Fashion Store", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883631/Screenshot_2025-11-11_180220_i6ale4.png" },
+  { id: 3, title: "Fashion Lookbook", tag: "Mobile", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883632/Screenshot_2025-11-11_125109_ogm4cr.png" },
+  { id: 4, title: "Crypto Landing", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883633/Screenshot_2025-11-11_181715_zjsqhi.png" },
   { id: 5, title: "Product Shots", tag: "Graphics", img: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop" },
   { id: 6, title: "Mobile Banking", tag: "UI/UX", img: "https://images.unsplash.com/photo-1520974735194-6cde52d6ab6c?q=80&w=1600&auto=format&fit=crop" },
-  { id: 7, title: "Community Platform Rebrand", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 125021.png" },
-  { id: 8, title: "NGO Landing Page", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 125119.png" },
-  { id: 9, title: "Real Estate Platform", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 125127.png" },
-  { id: 10, title: "Health Management WebApp", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 125138.png" },
+  { id: 7, title: "Community Platform Rebrand", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883632/Screenshot_2025-11-11_125021_el3z0m.png" },
+  { id: 8, title: "NGO Landing Page", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883633/Screenshot_2025-11-11_125119_dqvnan.png" },
+  { id: 9, title: "Real Estate Platform", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883634/Screenshot_2025-11-11_125127_hki2jo.png" },
+  { id: 10, title: "Health Management WebApp", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883632/Screenshot_2025-11-11_125138_m4pejy.png" },
   { id: 11, title: "SaaS Dashboard", tag: "Web", img: "https://images.unsplash.com/photo-1551281044-8a5b6735f4b8?q=80&w=1600&auto=format&fit=crop" },
-  { id: 12, title: "Academic CRM", tag: "Web", img: "src/assets/images/image.png" },
-  { id: 13, title: "SMM Marketing Platform", tag: "Web", img: "src/assets/images/Screenshot 2025-11-11 182956.png" },
+  { id: 12, title: "Academic CRM", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883632/Screenshot_2025-11-11_125153_l7gxbs.png" },
+  { id: 13, title: "SMM Marketing Platform", tag: "Web", img: "https://res.cloudinary.com/dlkfqsjgg/image/upload/v1762883631/Screenshot_2025-11-11_182956_vd7nkr.png" },
 ]
 
 const Portfolio = () => {
