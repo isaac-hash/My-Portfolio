@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion"
-import { Code2, Monitor, Image, PenTool, Smartphone, MonitorSmartphone } from "lucide-react"
+import { Code2, Image, Smartphone, MonitorSmartphone } from "lucide-react"
 import Section from "./ui/section"
 
 

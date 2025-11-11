@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import type { MouseEvent } from "react";
-import { ArrowUpRight, Mail, Github, Linkedin, Instagram, Sparkles, Download,  Youtube, Twitter } from "lucide-react"
+import { ArrowUpRight, Mail, Github, Linkedin, Instagram, Sparkles, Twitter } from "lucide-react"
 import Container from "./ui/container"
 import PrimaryButton from "./ui/primaryButton"
 import GhostButton from "./ui/ghostButton"

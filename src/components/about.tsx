@@ -1,5 +1,5 @@
 import Section from "./ui/section"
-import { Code2, Monitor, Image, PenTool, Smartphone, MonitorSmartphone} from "lucide-react"
+import { Code2, PenTool, Smartphone, MonitorSmartphone} from "lucide-react"
 
 // ————————————————————————————————
 // About
